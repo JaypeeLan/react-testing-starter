@@ -13,3 +13,6 @@ const ProductImageGallery = ({ imageUrls }: { imageUrls: string[] }) => {
 };
 
 export default ProductImageGallery;
+
+// render with an empty and ensure the DOM is empty
+// render a list of urls and, images with the right src attr
